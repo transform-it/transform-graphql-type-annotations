@@ -13,3 +13,5 @@ before_script:
   - npm prune
 script:
   - yarn lint && yarn test
+node_js:
+  - "8"
