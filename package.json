@@ -1,9 +1,8 @@
 {
   "name": "transform-graphql-type-annotations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An utility to generate flow or typescript type annotations from GraphQL schema and query.",
-  "main": "dist/lunar.umd.js",
-  "module": "dist/lunar.es.js",
+  "main": "dist/index.js",
   "files": [
     "dist",
     "src"
