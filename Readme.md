@@ -3,7 +3,7 @@
 
 > An utility to generate flow or typescript type annotations from GraphQL schema and query.
 
-**Works on the clent side**
+**Works on the client side**
 
 This utility is based on [apollo-codegen](https://github.com/apollographql/apollo-codegen)
 
