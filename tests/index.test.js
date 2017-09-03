@@ -1,6 +1,11 @@
 import test from 'ava'
-import sum from '../src'
+import transform from '../src'
+import { schema, query } from "./data"
 
-test('Add', (t) => {
-	t.is(sum(2,3), 5)
+test('should give correct flow annotations', (t) => {
+	t.snapshot(transform(schema, query))
+})
+
+test('should give correct typescript annotations', t => {
+	t.snapshot(transform(schema, query, 'typescript'))
 })

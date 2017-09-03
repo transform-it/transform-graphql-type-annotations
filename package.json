@@ -1,7 +1,7 @@
 {
-  "name": "javascript-plugin-boilerplate",
-  "version": "0.0.0-semantically-released",
-  "description": "A boilerplate to write plugins in pure JavaScript using ES2015",
+  "name": "transform-graphql-type-annotations",
+  "version": "0.1.0",
+  "description": "An utility to generate flow or typescript type annotations from GraphQL schema and query.",
   "main": "dist/lunar.umd.js",
   "module": "dist/lunar.es.js",
   "files": [
@@ -19,6 +19,7 @@
     "build:umd": "rollup -c rollup.umd.js",
     "build:es": "rollup -c rollup.es.js",
     "build:cjs": "rollup -c rollup.cjs.js",
+    "addContributors": "all-contributors add",
     "build:watch": "concurrently 'npm run build:umd -- -w' 'npm run build:es -- -w' 'npm run build:cjs -- -w'",
     "lint": "eslint src/**/*.js *.js tests/**/*.js",
     "lint:fix": "npm run lint -- -fix",
@@ -28,6 +29,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "all-contributors-cli": "^4.4.0",
     "ava": "^0.21.0",
     "babel-core": "^6.25.0",
     "babel-polyfill": "^6.23.0",
@@ -71,11 +73,15 @@
       "git add"
     ]
   },
-  "homepage": "https://github.com/ritz078/javascript-plugin-boilerplate",
+  "homepage": "https://github.com/transform-it/transform-graphql-type-annotations",
   "ava": {
     "require": [
       "babel-register",
       "babel-polyfill"
     ]
+  },
+  "dependencies": {
+    "apollo-codegen": "0.17.0-alpha.1",
+    "graphql": "^0.10.5"
   }
 }
