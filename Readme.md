@@ -1,4 +1,5 @@
 # transform-graphql-type-annotations
+[![Build Status](https://travis-ci.org/transform-it/transform-graphql-type-annotations.svg?branch=master)](https://travis-ci.org/transform-it/transform-graphql-type-annotations)
 
 > An utility to generate flow or typescript type annotations from GraphQL schema and query.
 
@@ -109,8 +110,11 @@ Pass the stringified query. Its a mandatory argument.
 
 By default this is set to `flow`. If you want TypeScript type annotations, change this to `typescript`
 
+## Related
+- [apollo-codegen](https://github.com/apollographql/apollo-codegen) - Generate API code or type annotations based on a GraphQL schema and query documents
+
 ## License
-MIT @ Ritesh Kumar
+MIT @ [Ritesh Kumar](https://twitter.com/ritz078)
 
 ## Contributors
 
