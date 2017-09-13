@@ -7,6 +7,10 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "transform-it/transform-graphql-type-annotations"
+  },
   "scripts": {
     "commit": "git cz",
     "test": "ava",
