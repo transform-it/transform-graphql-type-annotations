@@ -18,6 +18,15 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "AsaAyers",
+      "name": "Asa Ayers",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/324999?v=4",
+      "profile": "http://asaayers.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }
