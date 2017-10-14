@@ -85,7 +85,7 @@
     ]
   },
   "dependencies": {
-    "apollo-codegen": "0.17.0-alpha.1",
-    "graphql": "^0.10.5"
+    "apollo-codegen": "0.17.0-alpha.13",
+    "graphql": "^0.11.7"
   }
 }
