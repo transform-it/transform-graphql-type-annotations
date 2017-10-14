@@ -9,8 +9,6 @@ notifications:
 branches:
   only:
     - master
-before_script:
-  - npm prune
 script:
   - yarn lint && yarn test
 node_js:
