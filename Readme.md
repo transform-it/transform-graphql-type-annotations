@@ -1,4 +1,6 @@
 # transform-graphql-type-annotations
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/transform-it/transform-graphql-type-annotations.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/transform-it/transform-graphql-type-annotations.svg?branch=master)](https://travis-ci.org/transform-it/transform-graphql-type-annotations)
 
 > An utility to generate flow or typescript type annotations from GraphQL schema and query.
